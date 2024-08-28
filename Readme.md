@@ -6,7 +6,7 @@
 Before we start, we should upload every files. 
 Unfortunately we are not able to upload whole data due to capacity issue. 
 Please upload raw data to following directory.
- * data for 2022
+ * ~data for 2022~
    * train_Ground_truth_2022 : '/data/MLCAS2024/EvalAI/data/train/2022/DataPublication_final/GroundTruth/HYBRID_HIPS_V3.5_ALLPLOTS.csv'
    * train_Data_aquisition_time_2022 : '/data/MLCAS2024/EvalAI/data/train/2022/DataPublication_final/GroundTruth/DateofCollection.xlsx'
    * train_Satellite_2022 : '/data/MLCAS2024/EvalAI/data/train/2022/DataPublication_final/Satellite'
