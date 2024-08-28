@@ -3,11 +3,37 @@
 
 
 ### Dataset
-- All dataset is saved in _______ (folder name).
-- We have process raw data to build data in _____ (folder name). 
+Before we start, we should upload every files. 
+Unfortunately we are not able to upload whole data due to capacity issue. 
+Please upload raw data to following directory.
+ * data for 2022
+   * train_Ground_truth_2022 : '/data/MLCAS2024/EvalAI/data/train/2022/DataPublication_final/GroundTruth/HYBRID_HIPS_V3.5_ALLPLOTS.csv'
+   * train_Data_aquisition_time_2022 : '/data/MLCAS2024/EvalAI/data/train/2022/DataPublication_final/GroundTruth/DateofCollection.xlsx'
+   * train_Satellite_2022 : '/data/MLCAS2024/EvalAI/data/train/2022/DataPublication_final/Satellite'
 
+ * data for 2023
+   * train_Ground_truth_2023 : '/data/MLCAS2024/EvalAI/data/train/2023/DataPublication_final/GroundTruth/HYBRID_HIPS_V3.5_ALLPLOTS.csv'
+   * train_Data_aquisition_time_2023 : '/data/MLCAS2024/EvalAI/data/train/2023/DataPublication_final/GroundTruth/DateofCollection.xlsx'
+   * train_Satellite_2023 : '/data/MLCAS2024/EvalAI/data/train/2023/DataPublication_final/Satellite'
+
+ * validation data 
+   * val_Ground_truth : '/data/MLCAS2024/EvalAI/data/validation/2023/GroundTruth/val_HIPS_HYBRIDS_2023_V2.3.csv'
+   * val_Data_aquisition_time : '/data/MLCAS2024/EvalAI/data/validation/DateofCollection.xlsx'
+   * val_Satellite : '/data/MLCAS2024/EvalAI/data/validation/2023/Satellite'
+
+ * test data
+   * test_Ground_truth : '/data/MLCAS2024/EvalAI/data/test/Test/GroundTruth/test_HIPS_HYBRIDS_2023_V2.3.csv'
+   * test_Data_aquisition_time : '/data/MLCAS2024/EvalAI/data/validation/DateofCollection.xlsx'
+   * test_Satellite : '/data/MLCAS2024/EvalAI/data/test/Test/Satellite'
+
+Your outpur file would be generated based on your current directory. 
+ * out csv file path and name
+   * fn_out_final_validation : './validation_result_forsubmission.csv'
+   * fn_out_final_test : './test_result_forsubmission.csv'
 
 ### Code
+
+
 Python Based Code
 
 ### Reference
