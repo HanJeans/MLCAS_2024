@@ -63,23 +63,12 @@ pip install numpy rasterio affine test-tube pytorch pytorch-lightning seaborn po
 ### Code Procedure
  1. Import packages
  2. Load the input data and read csv and xlsx files with Pandas
- 3. We have matched each csv row and corresponding TP values
- 4. 
-```python
+ 3. Match each csv row and corresponding TP band values
+ 4. Make raster as simple series and build time series data
+ 5. Calculate desirable indices (e.g. vegetation indices)
+ 6. Build fully connected layers, train, test, validate
+ 7. Evaluate with metrics
 
-```
- 5. d
-```python
-
-```
- 6. d
-```python
-
-```
- 7. d 
-```python
-
-```
 
 
 
