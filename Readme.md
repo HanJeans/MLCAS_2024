@@ -21,7 +21,7 @@ We have brought model named PheGeMi referring to ["Multi-modal deep learning imp
 
 ### Code implementation
 
-First, we need to install all required package to run the code. 
+First, we need to install all required package to run the code. Be careful: anaconda does not support some required package, so user should use pip only. 
 
 ```
 pip install numpy rasterio affine test-tube pytorch pytorch-lightning pot pandas pillow scikit-learn
@@ -33,6 +33,30 @@ The code has genotype based model, but we are not likely to apply it because it 
 code instruction 1
 ```
 
+```
+code instruction 1
+```
+```
+code instruction 1
+```
+```
+code instruction 1
+```
+```
+code instruction 1
+```
+```
+code instruction 1
+```
+```
+code instruction 1
+```
+```
+code instruction 1
+```
+```
+code instruction 1
+```
 
 
 # H1 header
